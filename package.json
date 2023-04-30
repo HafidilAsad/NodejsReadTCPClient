@@ -1,0 +1,21 @@
+{
+  "name": "coba_modbustcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "modbus-serial": "^8.0.10",
+    "modbus-tcp": "^0.4.13",
+    "modbus-tcp-ip": "^1.0.3",
+    "mysql2": "^3.2.0",
+    "net": "^1.0.2",
+    "nodemon": "^2.0.21"
+  }
+}
